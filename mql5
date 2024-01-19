@@ -1,0 +1,94 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                              ZigZag with Extras  |
+//|                                       Developed by Forex Robot Easy Team |
+//|                                                  www.forexroboteasy.com |
+//+------------------------------------------------------------------+
+#property copyright 'Forex Robot Easy Team'
+#property link      'www.forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Function to calculate and plot depth channel display              |
+//+------------------------------------------------------------------+
+void CalculateDepthChannel()
+{
+   // Code to calculate and plot depth channel display
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Function to identify and highlight previous zig-zag points       |
+//+------------------------------------------------------------------+
+void HighlightZigZagPoints()
+{
+   // Code to identify and highlight previous zig-zag points
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Function to trigger break-out alerts                              |
+//+------------------------------------------------------------------+
+void BreakoutAlert()
+{
+   // Code to trigger break-out alerts based on predefined criteria
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Function to send push notifications                              |
+//+------------------------------------------------------------------+
+void SendPushNotification()
+{
+   // Code to send push notifications to mobile devices
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Call functions to initialize and set up ZigZag Extras indicator
+   CalculateDepthChannel();
+   HighlightZigZagPoints();
+   BreakoutAlert();
+   SendPushNotification();
+   
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Code to clean up and release resources
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Code to handle tick events
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   // Code to start the ZigZag Extras indicator
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert stopping function                                         |
+//+------------------------------------------------------------------+
+void OnStop()
+{
+   // Code to stop the ZigZag Extras indicator
+   // ...
+}
